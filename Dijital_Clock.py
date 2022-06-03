@@ -4,7 +4,7 @@ from time import strftime
 root = Tk()
 root.geometry("250x200")
 root.resizable(0,0)
-root.title('Dijital Clock')
+root.title('Digital Clock')
 Label(root,text = 'Arbaz Murme :)', font ='arial 20 bold').pack(side=BOTTOM)
 
 def time():
